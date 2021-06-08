@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&family=Poppins&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo img {
+  position: relative;
+  top: 80px;
+  width: 60px;
+  height: auto;
+}
+
+.outer {
+  position: fixed;
+  width: 100%;
+  top: 150px;
+  left: 0;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outer .container {
+  background-color: #fff;
+  width: 540px;
+  height: 500px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 12px;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 1rem;
+  padding: 3.6rem;
+}
+
+.outer .container .header span {
+  font-family: 'poppins';
+  font-weight: 700;
+  color: #3C4257;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.outer .container form .content form .user-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+
+.outer .container form form .user-details .input-box {
+  margin: 1rem;
+  width: calc(100% / 2 - 20px);
+}
+
+.outer .container form .user-details .input-box {
+  margin: 1rem !important;
+}
+
+.outer .container form .user-details .input-box .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.outer .container form .user-details .input-box .password a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'poppins';
+  font-size: 13px;
+  color: #45AC54;
+}
+
+.outer .container form .user-details .input-box .password a:hover {
+  color: #3C4257;
+}
+
+.outer .container form .input-box span.details {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'poppins';
+  font-size: 13px;
+  color: #3c4257bd;
+}
+
+.outer .container form .user-details .input-box span {
+  text-align: left;
+}
+
+.outer .container form .user-details .input-box input {
+  color: #3c4257bd;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #E0E1E4;
+  border-width: 1px;
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+}
+
+.outer .container form .user-details .input-box input[type=submit] {
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  color: #fff;
+  background-color: #45AC54;
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.outer .container form .user-details .input-box button {
+  margin-top: 0px;
+  background: #fff;
+  color: #3C4257;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  padding: 10px;
+  color: #3C4257;
+  outline: none;
+  border: none;
+  font-family: 'poppins';
+  font-weight: 600;
+}
+
+.outer .container form .user-details .input-box button:hover {
+  color: #45AC54;
+}
+
+.outer .container form .user-details .input-box button i {
+  font-size: 1rem;
+  color: #575757;
+}
+
+.outer .container form .user-details .input-box input:focus,
+.outer .container form .user-details .input-box input:valid {
+  border-color: #79c994;
+  border-width: 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .outer .container {
+    padding: 13px;
+  }
+  .outer .container .header span {
+    margin-bottom: 0 0 1rem 2rem;
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
